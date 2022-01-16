@@ -1,11 +1,25 @@
 ## MVC Tech Blog
    
 ### Description
+MVC Tech Blog is a full fledged live blog website which lets you post the articles in tech sector, it is equipped with capabilties of signin, signup, session management, commenting on the posts, and etc.
 
+### Link to Live Project
+https://nadia-tech-blog.herokuapp.com/
 
-### Deployment
+## Built With
 
-
+* Node.js
+* Jawsdb
+* bcrypt
+* bulma
+* connect-session-sequelize
+* dotenv
+* express
+* express-handlebars
+* express-session
+* mysql2
+* nodemon
+* sequelize
 
 
 
@@ -55,16 +69,3 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-### Installation Guidelines
-`npm install`
-
-- Add a .env file to the root of the project
-
-```text
-DB_NAME='tech_blog_db'
-DB_USER='root'
-DB_PW='XXX'
-```
-
-then run the command 
-`node seeds/index.js`
